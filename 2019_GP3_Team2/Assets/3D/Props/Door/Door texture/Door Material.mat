@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Door Material
   m_Shader: {fileID: 4800000, guid: 677115c3562340f4c9137243f60cee0e, type: 3}
-  m_ShaderKeywords: _USEMETALMAP_ON
+  m_ShaderKeywords: _DISABELSCALETILING_ON _USEMETALMAP_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -81,6 +81,7 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _DisabelScaleTiling: 1
     - _DstBlend: 0
     - _EStrenght: 1
     - _GlossMapScale: 1
