@@ -88,5 +88,11 @@ PrefabInstance:
       propertyPath: m_Size.z
       value: 2.2189999
       objectReference: {fileID: 0}
+    - target: {fileID: 3832970533971763137, guid: b6de5fef851f776428748b4c3ccd9fcb,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2110412721272150505, guid: 9f36d88e83d7cd443a3191f2372f5d17,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6de5fef851f776428748b4c3ccd9fcb, type: 3}
