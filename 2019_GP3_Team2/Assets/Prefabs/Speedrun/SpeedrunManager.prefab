@@ -1964,7 +1964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeElapsed: 0
-  isRunning: 1
+  isRunning: 0
   lastTimeStampIndex: -1
   highScore: 0
   mainTimerText: {fileID: 725297734108697799}
@@ -1989,7 +1989,6 @@ MonoBehaviour:
     diffUIText: {fileID: 5621484159442627692}
     UIText: {fileID: 8212466650952077808}
     time: 0
-  highScoreText: {fileID: 725297733248988112}
   betterThanTimeColor: {r: 0.227451, g: 0.8000001, b: 0.37647063, a: 1}
   worseThanTimeColor: {r: 1, g: 0, b: 0.018271446, a: 1}
   onStartSpeedRun:
