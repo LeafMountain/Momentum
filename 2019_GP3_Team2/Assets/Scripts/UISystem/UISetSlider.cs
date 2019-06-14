@@ -7,7 +7,7 @@ public class UISetSlider : MonoBehaviour
 {
     public Slider slider;
     public FloatVariable floatVariable;
-    public float maxValue = 5;
+    public float maxValue = 3;
 
     [SerializeField] private TextMeshProUGUI _percentText;
 
@@ -16,13 +16,13 @@ public class UISetSlider : MonoBehaviour
         slider.maxValue = maxValue;
         slider.value = floatVariable.value;
         slider.onValueChanged.AddListener(OnValueCanged);
-        _percentText.text = Mathf.RoundToInt(slider.value * 10) + "%";
+        _percentText.text = Mathf.RoundToInt((slider.value / maxValue) * 100) + "%";
 
     }
 
     void OnValueCanged(float value)
     {
         floatVariable.SetValue(value);
-        _percentText.text = Mathf.RoundToInt(value * 10) + "%";
+        _percentText.text = Mathf.RoundToInt((value / maxValue) * 100) + "%";
     }
 }
