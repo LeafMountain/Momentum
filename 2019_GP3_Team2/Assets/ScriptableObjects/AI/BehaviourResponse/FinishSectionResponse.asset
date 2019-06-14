@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44377e3778a70374883356b9e1687e83, type: 3}
+  m_Name: FinishSectionResponse
+  m_EditorClassIdentifier: 
+  _moodResponses:
+  - happyBarrier: 80
+    _response:
+    - I've never seen anyone go from point A to B that quick! This is why you are
+      my BEST FRIEND!!
+    - THAT'S MY BEST FRIEND EVERYBODY! You did that so fast!
+  - happyBarrier: 50
+    _response:
+    - Good Job... You did that so fast!
+  _hateResponses:
+    happyBarrier: 0
+    _response:
+    - 'Oh wow... Look at you thinking your the best cause you did that fast... '
+    - That was nothing... Ok, you where fast. But you still suck.

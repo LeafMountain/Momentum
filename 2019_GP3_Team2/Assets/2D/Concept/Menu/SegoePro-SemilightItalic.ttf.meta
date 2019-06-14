@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a0595fbcfacc10e448f64ba0e9a710ce
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Segoe Pro
+  fontNames:
+  - Segoe Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d9d51188d4060234da3595f8c6cccb1f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

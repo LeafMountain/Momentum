@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44377e3778a70374883356b9e1687e83, type: 3}
+  m_Name: DeathResponse
+  m_EditorClassIdentifier: 
+  _moodResponses:
+  - happyBarrier: 95
+    _response:
+    - OH NO! I'm not gonna let my firend die! My best friend.
+    - Don't worry friend! I won't let you die!
+    _responseClip: []
+  - happyBarrier: 62
+    _response:
+    - 'Hope it didn''t hurt! '
+    - Don't worry, you'll get another chance I guess!
+    - Oh no! I was so afraid you wouldn't come back to me. Friend.
+    _responseClip: []
+  - happyBarrier: 39
+    _response:
+    - I cant help but hoping that hurt a bit
+    - Of all the people I could get stuck with I got you...GREAT.
+    _responseClip: []
+  _hateResponses:
+    happyBarrier: 0
+    _response:
+    - Wow... Death looks ugly on you. Fine, I'll save you...
+    - Why don't you just stay dead...
+    - Lucky you this is not real. Kind of wish it was. Then you would stay dead...
+    - Gee, I wish the creators didn't force me to save you...
+    - Really, your dying. You're worse than my great grand mother and she never got
+      a patch update.
+    - 'Look are you. Dying. With no friends. '
+    - I feel traped with a useless person. Always force to save you. Kill me.
+    - Please just cut my power. I'm tired being stuck with you, forcing to save you.
+      Ass.
+    - Why... You hateful person, just die and stay dead.
+    _responseClip:
+    - {fileID: 8300000, guid: 5d0c9bd4a0daddf4dbc0a0fc8529acd0, type: 3}

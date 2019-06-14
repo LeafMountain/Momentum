@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44377e3778a70374883356b9e1687e83, type: 3}
+  m_Name: StandStillResponse
+  m_EditorClassIdentifier: 
+  _moodResponses:
+  - happyBarrier: 85
+    _response:
+    - You look so pretty standing there. Prettiest friend in the world!
+    - 'Can I ask you a favor? Please be careful, I wouldn''t want my best friend to
+      get hurt! '
+    _responseClip: []
+  - happyBarrier: 50
+    _response:
+    - High Five! Oh... Forgot, I don't have arms...
+    - I'm not a fan of the staning still thing. But if you're tired it's ok I guess.
+    _responseClip: []
+  - happyBarrier: 25
+    _response:
+    - While you stand still I can see all the pores in your face.
+    - 'Forward. Come on, one step at the time. '
+    _responseClip: []
+  _hateResponses:
+    happyBarrier: 0
+    _response:
+    - Well... look at you, standing still. Ugly...
+    - Seriously... You are the SLOWEST person I've met. And I've met some pretty slow
+      software systems...
+    _responseClip: []

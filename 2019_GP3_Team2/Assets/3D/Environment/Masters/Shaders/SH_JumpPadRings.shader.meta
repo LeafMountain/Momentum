@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6937b5d244149854f851c1738d1a8b03
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_Cirlce_Sharp_01: {fileID: 2800000, guid: 20336e0ad375d074781ae5e18bd43a2c,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
