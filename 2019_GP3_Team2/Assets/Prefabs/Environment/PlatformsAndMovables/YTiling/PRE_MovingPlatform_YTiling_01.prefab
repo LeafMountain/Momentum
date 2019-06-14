@@ -47,7 +47,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7928067643556820048}
-  m_Mesh: {fileID: -5049436116001322624, guid: b9bd7329a65b81a448e95282dbd4faea, type: 3}
+  m_Mesh: {fileID: 4363088381494310832, guid: b9bd7329a65b81a448e95282dbd4faea, type: 3}
 --- !u!114 &-8748210777903270431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
   colorZero: {fileID: 11400000, guid: 2e9db2e4f11eb3a48a621341736ae7cc, type: 2}
   colorOne: {fileID: 11400000, guid: 59b00017205f107478bafdfc0615ab44, type: 2}
   color: {r: 0, g: 0, b: 0, a: 0}
-  materialIndex: 2
+  materialIndex: 0
   colorPropertyName: _EmissionColor
   duration: 0.1
 --- !u!1001 &6002050219265211718
