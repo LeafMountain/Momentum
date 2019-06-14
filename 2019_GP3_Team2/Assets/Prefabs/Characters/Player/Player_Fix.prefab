@@ -878,15 +878,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5.5
-  _airSpeedMultiplier: 0.05
+  _airSpeedMultiplier: 0.25
   _jumpHeight: 1
   _rotationSpeed: {fileID: 11400000, guid: 43c8bec9fda8a1d41a266b4593c56372, type: 2}
   gravity: -15
   _slopeLimit: 65
   _inputProfile: {fileID: 11400000, guid: b2b7b2fafadd8cc459923e56cbebca91, type: 2}
-  groundedCheckDistance: 0.2
+  groundedCheckDistance: 0.1
   resistance: 1
-  maxHorizontalSpeed: 6.5
+  maxHorizontalSpeed: 8
   disableMovement: 0
   OnJump:
     m_PersistentCalls:
@@ -1475,21 +1475,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7926250903693877023, guid: f81fe34f8c0f35b4693e4c474b63d38b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.122
-      objectReference: {fileID: 0}
-    - target: {fileID: 7926250903693877023, guid: f81fe34f8c0f35b4693e4c474b63d38b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.088
-      objectReference: {fileID: 0}
-    - target: {fileID: 7926250903693877023, guid: f81fe34f8c0f35b4693e4c474b63d38b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.248
-      objectReference: {fileID: 0}
     - target: {fileID: 3570269981533103004, guid: f81fe34f8c0f35b4693e4c474b63d38b,
         type: 3}
       propertyPath: OnExtract.m_PersistentCalls.m_Calls.Array.size
@@ -1544,6 +1529,21 @@ PrefabInstance:
         type: 3}
       propertyPath: OnTimeStorageUnhover.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7926250903693877023, guid: f81fe34f8c0f35b4693e4c474b63d38b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.122
+      objectReference: {fileID: 0}
+    - target: {fileID: 7926250903693877023, guid: f81fe34f8c0f35b4693e4c474b63d38b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.088
+      objectReference: {fileID: 0}
+    - target: {fileID: 7926250903693877023, guid: f81fe34f8c0f35b4693e4c474b63d38b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.248
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f81fe34f8c0f35b4693e4c474b63d38b, type: 3}
@@ -1660,11 +1660,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1670414249975883421}
     m_Modifications:
-    - target: {fileID: 838206205655400558, guid: 56c1e3ba21d9a9e4187ff44fd22d6fcf,
-        type: 3}
-      propertyPath: m_Name
-      value: Crosshair
-      objectReference: {fileID: 0}
     - target: {fileID: 7254615200613236191, guid: 56c1e3ba21d9a9e4187ff44fd22d6fcf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1720,6 +1715,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 838206205655400558, guid: 56c1e3ba21d9a9e4187ff44fd22d6fcf,
+        type: 3}
+      propertyPath: m_Name
+      value: Crosshair
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c1e3ba21d9a9e4187ff44fd22d6fcf, type: 3}
 --- !u!1 &4205705844968375897 stripped
@@ -1753,11 +1753,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8633849509261674712}
     m_Modifications:
-    - target: {fileID: 8050757843031939588, guid: bf201613224f63c4d97980290a635677,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayerFadeCanvas
-      objectReference: {fileID: 0}
     - target: {fileID: 8050757843031939591, guid: bf201613224f63c4d97980290a635677,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1862,6 +1857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050757843031939588, guid: bf201613224f63c4d97980290a635677,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerFadeCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 8050757841810190744, guid: bf201613224f63c4d97980290a635677,
         type: 3}
