@@ -121,40 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!84 &2180022
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &3343201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -521,6 +487,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 11629736}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &18599464
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &19574038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -776,6 +776,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -845,11 +850,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
@@ -956,6 +956,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (71)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1025,11 +1030,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (71)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -1114,6 +1114,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 33428776}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &41192593
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &44760273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1432,6 +1466,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1788604901}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &56194658
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'JumpPadLight : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &57083830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1582,40 +1650,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1324686748}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &68241148
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &69544628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1856,40 +1890,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 75790637}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &76367027
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &79929331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2036,6 +2036,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (34)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2090,11 +2095,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (34)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -2585,6 +2585,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (80)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2655,11 +2660,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (80)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &115768463 stripped
@@ -2668,6 +2668,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 115768462}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &116560915
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!4 &119867065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5098256133516390865, guid: fd171fffff75f9844a9aa91fe33c600f,
@@ -2681,6 +2715,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (52)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2750,11 +2789,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (52)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -3050,40 +3084,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0d50f37c3edcf541a063006c6a79a1e, type: 3}
---- !u!84 &130148331
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!4 &130873145 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8570949584436257308, guid: d4d0ff7392423b74d9e10994b0972a1b,
@@ -3166,6 +3166,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3235,11 +3240,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62877774
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -3393,74 +3393,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68bf6fb1caf8c144b086d0e1369c316, type: 3}
---- !u!84 &148312776
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
---- !u!84 &149076395
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &151460645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3663,6 +3595,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (72)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3732,11 +3669,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (72)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -3909,6 +3841,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3978,11 +3915,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62877774
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -4102,6 +4034,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (28)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4156,11 +4093,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (28)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -4261,6 +4193,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (60)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4330,11 +4267,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (60)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -4500,13 +4432,13 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2146696962}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &199938992
+--- !u!84 &199069924
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -4541,6 +4473,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (30)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4610,11 +4547,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (30)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -5708,6 +5640,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (45)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5777,11 +5714,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (45)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -6094,6 +6026,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 252235875}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &255073651
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!4 &259173995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3836359577166050127, guid: f68bf6fb1caf8c144b086d0e1369c316,
@@ -6278,6 +6244,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (39)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6332,11 +6303,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (39)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -6582,6 +6548,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (69)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6651,11 +6622,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (69)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -7308,6 +7274,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7377,11 +7348,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
@@ -7467,6 +7433,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (36)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7521,11 +7492,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (36)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -7876,7 +7842,7 @@ PrefabInstance:
         type: 3}
       propertyPath: shadowMapRenderTexture
       value: 
-      objectReference: {fileID: 2106790050}
+      objectReference: {fileID: 2144549522}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c8b2e550535a6b40b79dcab146de0fb, type: 3}
 --- !u!4 &358829834 stripped
@@ -8071,6 +8037,11 @@ PrefabInstance:
       propertyPath: onOnStart
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7807678362693517966, guid: 3c8b2e550535a6b40b79dcab146de0fb,
+        type: 3}
+      propertyPath: shadowMapRenderTexture
+      value: 
+      objectReference: {fileID: 1649881876}
     - target: {fileID: 4437494147890543578, guid: 3c8b2e550535a6b40b79dcab146de0fb,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -8091,11 +8062,6 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0.7584399
       objectReference: {fileID: 0}
-    - target: {fileID: 7807678362693517966, guid: 3c8b2e550535a6b40b79dcab146de0fb,
-        type: 3}
-      propertyPath: shadowMapRenderTexture
-      value: 
-      objectReference: {fileID: 864916069}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c8b2e550535a6b40b79dcab146de0fb, type: 3}
 --- !u!4 &365888253 stripped
@@ -8111,6 +8077,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (30)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8166,11 +8137,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (30)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
 --- !u!4 &367679954 stripped
@@ -8186,6 +8152,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (31)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8240,11 +8211,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (31)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -8584,6 +8550,11 @@ PrefabInstance:
       propertyPath: onOnStart
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7807678362693517966, guid: 3c8b2e550535a6b40b79dcab146de0fb,
+        type: 3}
+      propertyPath: shadowMapRenderTexture
+      value: 
+      objectReference: {fileID: 1639582958}
     - target: {fileID: 4437494147890543578, guid: 3c8b2e550535a6b40b79dcab146de0fb,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -8609,11 +8580,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7807678362693517966, guid: 3c8b2e550535a6b40b79dcab146de0fb,
-        type: 3}
-      propertyPath: shadowMapRenderTexture
-      value: 
-      objectReference: {fileID: 1120913562}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c8b2e550535a6b40b79dcab146de0fb, type: 3}
 --- !u!4 &388018203 stripped
@@ -8629,6 +8595,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (32)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8683,11 +8654,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (32)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -8766,6 +8732,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 393959443}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &397249885
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &397915270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8919,40 +8919,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e78bdcdd7ef364e87706f7c5dd13c4, type: 3}
---- !u!84 &400400939
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &403125945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8960,6 +8926,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (84)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9030,11 +9001,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (84)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &403125946 stripped
@@ -9043,6 +9009,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 403125945}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &409688916
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &414642336
 GameObject:
   m_ObjectHideFlags: 0
@@ -9375,7 +9375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd171fffff75f9844a9aa91fe33c600f, type: 3}
---- !u!84 &445707714
+--- !u!84 &442270445
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9416,6 +9416,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (55)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9470,11 +9475,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (55)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -9824,6 +9824,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 466986431}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &469184490
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &469821113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9831,6 +9865,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (53)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9885,11 +9924,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (53)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -10751,6 +10785,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (66)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10805,11 +10844,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (66)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -10994,40 +11028,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 515445941}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &518354215
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &521037093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11788,40 +11788,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 440041412}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &546230113
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &547754864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11978,6 +11944,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1853682053}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &555723995
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'JumpPadLight : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &558357376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12069,6 +12069,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (46)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12123,11 +12128,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (46)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -12442,6 +12442,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 570762127}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &573929537
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &577308232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12524,6 +12558,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12593,11 +12632,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62877774
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -12996,6 +13030,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (59)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13065,11 +13104,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (59)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -13230,6 +13264,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (48)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13285,11 +13324,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (48)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
 --- !u!1001 &609825401
@@ -13299,6 +13333,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (64)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13368,11 +13407,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (64)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -13464,6 +13498,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (33)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13518,11 +13557,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (33)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -13779,6 +13813,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (81)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13848,11 +13887,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (81)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -14288,7 +14322,7 @@ PrefabInstance:
         type: 3}
       propertyPath: shadowMapRenderTexture
       value: 
-      objectReference: {fileID: 546230113}
+      objectReference: {fileID: 1881969882}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c8b2e550535a6b40b79dcab146de0fb, type: 3}
 --- !u!4 &650409307 stripped
@@ -14297,40 +14331,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 58653714}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &652035084
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &653750464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15288,40 +15288,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 687861787}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &692132854
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!4 &692230455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8570949584436257308, guid: d4d0ff7392423b74d9e10994b0972a1b,
@@ -15404,6 +15370,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (57)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15473,11 +15444,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (57)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -15832,6 +15798,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: KillArea
       objectReference: {fileID: 0}
+    - target: {fileID: 5717094030624076454, guid: e7ee6fd1a71a79c4b9efdcffa4f76b08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5717094030624076474, guid: e7ee6fd1a71a79c4b9efdcffa4f76b08,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16007,6 +15978,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16076,11 +16052,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
@@ -16621,40 +16592,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cd1d6310fabec047b16a9b21726bf1d, type: 3}
---- !u!84 &731059713
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &731659602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16930,6 +16867,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (68)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16999,11 +16941,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (68)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -17357,6 +17294,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17411,11 +17353,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -17653,40 +17590,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcc003c5eb11e16469944e054146bf89, type: 3}
---- !u!84 &763720656
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &767541100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17913,6 +17816,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (82)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17982,11 +17890,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (82)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -19011,6 +18914,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 813879476}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &816193422
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (2) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &817320436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19174,6 +19111,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (39)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19243,11 +19185,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (39)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -19333,6 +19270,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (49)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19402,11 +19344,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (49)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -19538,6 +19475,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19592,11 +19534,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -19676,6 +19613,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (32)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19745,11 +19687,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (32)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -20060,6 +19997,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (27)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20114,11 +20056,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (27)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -20272,40 +20209,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 864299633}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &864916069
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &869494036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20457,6 +20360,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (58)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20526,11 +20434,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (58)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -20690,40 +20593,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 882082181}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &882372971
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!4 &886838350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8570949584436257308, guid: d4d0ff7392423b74d9e10994b0972a1b,
@@ -20812,6 +20681,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20881,11 +20755,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
@@ -21061,6 +20930,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (43)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21131,11 +21005,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (43)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &905768352 stripped
@@ -21150,40 +21019,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 371526963}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &915744398
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &917201112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21191,6 +21026,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (20)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21261,11 +21101,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (20)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &917201113 stripped
@@ -21308,6 +21143,40 @@ RenderTexture:
     m_WrapW: 1
   m_Dimension: 2
   m_VolumeDepth: 1
+--- !u!84 &925953627
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &929936808
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21315,6 +21184,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (50)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21384,11 +21258,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (50)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -21557,40 +21426,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 948147550}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &953723511
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &959906618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21817,6 +21652,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (33)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21886,11 +21726,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (33)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -22099,6 +21934,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 982860811}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &983605267
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!84 &987083229
 RenderTexture:
   m_ObjectHideFlags: 0
@@ -22386,6 +22255,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (29)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22455,11 +22329,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (29)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -22757,40 +22626,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1006681947}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1008617613
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1009333522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23106,40 +22941,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1854912819}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1015360084
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1022240151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23418,6 +23219,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (46)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23487,11 +23293,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (46)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -23627,6 +23428,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (62)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23696,11 +23502,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (62)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -23883,6 +23684,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (75)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23952,11 +23758,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (75)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -24137,6 +23938,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1059421545}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1064478852
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1066260648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24144,6 +23979,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24213,11 +24053,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62877774
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -24796,6 +24631,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24865,11 +24705,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
@@ -25522,6 +25357,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25591,11 +25431,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
@@ -25859,6 +25694,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25929,11 +25769,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (7)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
 --- !u!4 &1119578001 stripped
@@ -25942,20 +25777,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1119578000}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1120913562
+--- !u!84 &1122761109
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_ForcedFallbackFormat: 4
   m_DownscaleFallback: 0
   serializedVersion: 3
-  m_Width: 512
+  m_Width: 256
   m_Height: 256
   m_AntiAliasing: 1
   m_DepthFormat: 0
@@ -25989,6 +25824,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (31)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26058,11 +25898,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (31)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -26147,6 +25982,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1133306748}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1134346287
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1135414632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26154,6 +26023,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (63)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26223,11 +26097,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (63)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -26958,6 +26827,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (56)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27027,11 +26901,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (56)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -27240,7 +27109,7 @@ MonoBehaviour:
   overrideColor: 0
   overridingColor: {r: 0.999999, g: 0.999998, b: 0.999998, a: 1}
   useShadow: 1
-  shadowMapRenderTexture: {fileID: 1991268581}
+  shadowMapRenderTexture: {fileID: 816193422}
   useCookie: 1
   cookieMapRenderTexture: {fileID: 0}
   enableOutOfPhaseColor: 0
@@ -27465,6 +27334,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (55)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27534,11 +27408,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (55)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -28263,7 +28132,7 @@ PrefabInstance:
         type: 3}
       propertyPath: shadowMapRenderTexture
       value: 
-      objectReference: {fileID: 763720656}
+      objectReference: {fileID: 56194658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c8b2e550535a6b40b79dcab146de0fb, type: 3}
 --- !u!1001 &1196876601
@@ -28273,6 +28142,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (77)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28342,11 +28216,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (77)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -28501,6 +28370,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (25)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28555,11 +28429,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (25)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -28712,6 +28581,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (28)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28782,11 +28656,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (28)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &1217471614 stripped
@@ -28802,6 +28671,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28872,11 +28746,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.62877774
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (10)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!1001 &1223469639
@@ -28886,6 +28755,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (48)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28955,11 +28829,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (48)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -29134,43 +29003,9 @@ PrefabInstance:
         type: 3}
       propertyPath: shadowMapRenderTexture
       value: 
-      objectReference: {fileID: 652035084}
+      objectReference: {fileID: 555723995}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c8b2e550535a6b40b79dcab146de0fb, type: 3}
---- !u!84 &1237974512
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!4 &1238114170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1426663977293092505, guid: 62701db53088b754db70e2616713fe01,
@@ -29514,6 +29349,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (35)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29568,11 +29408,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (35)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -29690,6 +29525,11 @@ PrefabInstance:
       propertyPath: onOnStart
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7807678362693517966, guid: 3c8b2e550535a6b40b79dcab146de0fb,
+        type: 3}
+      propertyPath: shadowMapRenderTexture
+      value: 
+      objectReference: {fileID: 1411746365}
     - target: {fileID: 4437494147890543578, guid: 3c8b2e550535a6b40b79dcab146de0fb,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -29710,11 +29550,6 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0.05859348
       objectReference: {fileID: 0}
-    - target: {fileID: 7807678362693517966, guid: 3c8b2e550535a6b40b79dcab146de0fb,
-        type: 3}
-      propertyPath: shadowMapRenderTexture
-      value: 
-      objectReference: {fileID: 1411746365}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c8b2e550535a6b40b79dcab146de0fb, type: 3}
 --- !u!1001 &1269165733
@@ -29728,6 +29563,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KillArea (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5717094030624076454, guid: e7ee6fd1a71a79c4b9efdcffa4f76b08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5717094030624076474, guid: e7ee6fd1a71a79c4b9efdcffa4f76b08,
         type: 3}
@@ -29814,6 +29654,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29883,11 +29728,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62877774
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -29966,6 +29806,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1281473366}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1282568012
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1282820395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29973,6 +29847,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (27)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30042,11 +29921,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (27)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -30159,6 +30033,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (34)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30228,11 +30107,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (34)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -30407,7 +30281,7 @@ PrefabInstance:
     - target: {fileID: 2562294142502603083, guid: e3dbbccc52608a64c885cc29979f6ce8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.079987
+      value: -10.959976
       objectReference: {fileID: 0}
     - target: {fileID: 2562294142502603083, guid: e3dbbccc52608a64c885cc29979f6ce8,
         type: 3}
@@ -30498,6 +30372,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (47)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30552,11 +30431,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (47)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -31018,40 +30892,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e78bdcdd7ef364e87706f7c5dd13c4, type: 3}
---- !u!84 &1310516298
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1312044700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31149,6 +30989,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (78)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31219,11 +31064,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (78)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &1316235572 stripped
@@ -31232,6 +31072,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1316235571}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1320178956
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1322783295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31239,6 +31113,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31308,11 +31187,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
@@ -31718,6 +31592,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31788,11 +31667,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.62877774
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (12)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!1001 &1347632264
@@ -31802,6 +31676,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (15)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31871,11 +31750,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62877774
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -32611,6 +32485,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (38)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32666,11 +32545,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (38)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
 --- !u!4 &1410821577 stripped
@@ -32686,6 +32560,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32756,11 +32635,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &1411683548 stripped
@@ -32783,6 +32657,40 @@ RenderTexture:
   m_DownscaleFallback: 0
   serializedVersion: 3
   m_Width: 512
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!84 &1413430673
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
   m_Height: 256
   m_AntiAliasing: 1
   m_DepthFormat: 0
@@ -33227,40 +33135,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1767433129}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1426849930
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!4 &1432152996 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2869496908525027818, guid: 98e78bdcdd7ef364e87706f7c5dd13c4,
@@ -33314,6 +33188,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (70)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33383,11 +33262,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (70)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -33519,6 +33393,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (51)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33573,11 +33452,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (51)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -33933,6 +33807,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (51)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34002,11 +33881,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (51)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -34256,40 +34130,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1478882774}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1479587753
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1480690431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34812,6 +34652,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34881,11 +34726,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
@@ -35159,6 +34999,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (61)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35228,11 +35073,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (61)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -35468,6 +35308,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (37)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35523,11 +35368,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (37)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
 --- !u!4 &1541832220 stripped
@@ -35549,6 +35389,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35618,11 +35463,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62877774
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -35783,6 +35623,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (29)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35837,11 +35682,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (29)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -36407,6 +36247,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (74)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36476,11 +36321,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (74)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -36647,6 +36487,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36716,11 +36561,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62877774
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -37569,6 +37409,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (35)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37638,11 +37483,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (35)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -37727,40 +37567,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1621762858}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1623254664
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1624149670
 GameObject:
   m_ObjectHideFlags: 0
@@ -37907,6 +37713,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (54)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37961,11 +37772,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (54)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -38324,6 +38130,40 @@ RenderTexture:
     m_WrapW: 1
   m_Dimension: 2
   m_VolumeDepth: 1
+--- !u!84 &1639582958
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'JumpPadLight : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1642295432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38558,6 +38398,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1298898094}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1649881876
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'JumpPadLight : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!4 &1652427005 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2869496908525027818, guid: 98e78bdcdd7ef364e87706f7c5dd13c4,
@@ -38907,6 +38781,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38977,11 +38856,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.62877774
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (9)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!1001 &1682029065
@@ -38991,6 +38865,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (65)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39060,11 +38939,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (65)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -39171,6 +39045,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (66)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39241,11 +39120,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (66)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &1691943493 stripped
@@ -39261,6 +39135,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (53)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39330,11 +39209,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (53)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -39426,6 +39300,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (79)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39495,11 +39374,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (79)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -41166,6 +41040,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (26)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41220,11 +41099,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (26)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -41863,6 +41737,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481451584}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41932,11 +41811,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62877774
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -42016,6 +41890,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (76)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42085,11 +41964,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (76)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -42277,6 +42151,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (11)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42347,11 +42226,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (11)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
 --- !u!4 &1804877268 stripped
@@ -42366,40 +42240,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 608809234}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1805938005
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1806415965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42579,6 +42419,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1806415965}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1817559241
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1820758178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42759,7 +42633,7 @@ MonoBehaviour:
   overrideColor: 0
   overridingColor: {r: 0.999999, g: 0.999998, b: 0.999998, a: 1}
   useShadow: 1
-  shadowMapRenderTexture: {fileID: 2102382849}
+  shadowMapRenderTexture: {fileID: 1413430673}
   useCookie: 1
   cookieMapRenderTexture: {fileID: 0}
   enableOutOfPhaseColor: 0
@@ -42847,40 +42721,6 @@ Transform:
   m_Father: {fileID: 1139645115}
   m_RootOrder: 469
   m_LocalEulerAnglesHint: {x: 15.269001, y: -90.00001, z: 0}
---- !u!84 &1822230972
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1825020668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43064,6 +42904,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (44)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43133,11 +42978,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (44)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -43228,6 +43068,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1849257553}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1850561750
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1850573819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43317,6 +43191,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 788946894}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1852582426
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!4 &1852853891 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1898529652564916902, guid: dcc003c5eb11e16469944e054146bf89,
@@ -43330,6 +43238,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (52)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43384,11 +43297,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (52)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -43793,6 +43701,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (47)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43863,11 +43776,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (47)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &1867801734 stripped
@@ -43883,6 +43791,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43952,11 +43865,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -44185,6 +44093,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1879877656}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1881969882
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'JumpPadLight : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1889361157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44913,6 +44855,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (40)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44982,11 +44929,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (40)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -45152,40 +45094,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1931610533}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1934214170
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!4 &1934981677 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5098256133516390865, guid: fd171fffff75f9844a9aa91fe33c600f,
@@ -45274,6 +45182,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45343,11 +45256,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
@@ -45845,6 +45753,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (83)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45915,11 +45828,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (83)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &1960601716 stripped
@@ -45928,6 +45836,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1960601715}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1962587683
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1966224691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45935,6 +45877,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46005,11 +45952,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
 --- !u!4 &1966224692 stripped
@@ -46018,74 +45960,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1966224691}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1967512009
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
---- !u!84 &1969840338
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1971352429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46093,6 +45967,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (37)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46162,11 +46041,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (37)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -46370,6 +46244,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_8x16_01 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 5728698041373730462, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46440,11 +46319,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 8780670570595898509, guid: 0f82717b97fd15e4985bf0cf7eccae8e,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_8x16_01 (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f82717b97fd15e4985bf0cf7eccae8e, type: 3}
 --- !u!1001 &1981679864
@@ -46454,6 +46328,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (56)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46509,11 +46388,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (56)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
 --- !u!4 &1981679865 stripped
@@ -46522,40 +46396,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1981679864}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1988462777
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1988858093
 GameObject:
   m_ObjectHideFlags: 0
@@ -46620,40 +46460,6 @@ Transform:
   m_Father: {fileID: 1139645115}
   m_RootOrder: 482
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &1991268581
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (2) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1991632215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47000,6 +46806,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (18)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47069,11 +46880,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (18)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -47180,6 +46986,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (73)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47250,11 +47061,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (73)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
 --- !u!4 &2010109247 stripped
@@ -47270,6 +47076,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (54)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47339,11 +47150,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (54)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -47585,6 +47391,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (49)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47640,11 +47451,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (49)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
 --- !u!4 &2021787069 stripped
@@ -47660,6 +47466,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (67)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47729,11 +47540,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (67)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -47970,6 +47776,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (36)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48039,11 +47850,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (36)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -48286,6 +48092,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Wall_2x4_01 (24)
+      objectReference: {fileID: 0}
     - target: {fileID: 5860167961639011091, guid: bab87bc0a2a0209428b7b87aed947a81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48340,11 +48151,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555844384836925460, guid: bab87bc0a2a0209428b7b87aed947a81,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Wall_2x4_01 (24)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab87bc0a2a0209428b7b87aed947a81, type: 3}
@@ -48755,6 +48561,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1139645115}
     m_Modifications:
+    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
+        type: 3}
+      propertyPath: m_Name
+      value: PRE_Pillar_Square_01 (38)
+      objectReference: {fileID: 0}
     - target: {fileID: 2591809319277006005, guid: c412e2c31c31e7b42b648c09f2f71163,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48824,11 +48635,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561813390171274918, guid: c412e2c31c31e7b42b648c09f2f71163,
-        type: 3}
-      propertyPath: m_Name
-      value: PRE_Pillar_Square_01 (38)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412e2c31c31e7b42b648c09f2f71163, type: 3}
@@ -49565,40 +49371,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2099910460}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &2102382849
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &2104629344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49674,40 +49446,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2104629344}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &2106790050
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'JumpPadLight : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &2109797691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49978,7 +49716,7 @@ MonoBehaviour:
   overrideColor: 0
   overridingColor: {r: 0.999999, g: 0.999998, b: 0.999998, a: 1}
   useShadow: 1
-  shadowMapRenderTexture: {fileID: 2180022}
+  shadowMapRenderTexture: {fileID: 397249885}
   useCookie: 1
   cookieMapRenderTexture: {fileID: 0}
   enableOutOfPhaseColor: 0
@@ -50141,6 +49879,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2109797691}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &2131313971
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Spot Light (1) : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &2138275711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50468,6 +50240,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2141898992}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &2144549522
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'JumpPadLight : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!84 &2144706287
 RenderTexture:
   m_ObjectHideFlags: 0
