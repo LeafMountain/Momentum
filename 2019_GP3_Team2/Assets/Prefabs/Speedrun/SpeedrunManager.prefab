@@ -414,7 +414,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.025024414}
+  m_AnchoredPosition: {x: 0, y: -0.025146484}
   m_SizeDelta: {x: 500, y: -0.049987793}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &725297733264065763
@@ -1926,6 +1926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 725297734049723223}
+  - component: {fileID: 1124378363}
   m_Layer: 0
   m_Name: SpeedrunManager
   m_TagString: Untagged
@@ -1948,6 +1949,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1124378363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725297734049723222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7686e0a77f5237c46b4c12d53810a5d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeElapsed: 0
+  isRunning: 1
+  lastTimeStampIndex: -1
+  highScore: 0
+  mainTimerText: {fileID: 725297734108697799}
+  timeStamps:
+  - name: Level 1
+    diffUIText: {fileID: 725297734298177438}
+    UIText: {fileID: 725297733765583963}
+    time: 0
+  - name: Level 2
+    diffUIText: {fileID: 725297733809251941}
+    UIText: {fileID: 725297734936737079}
+    time: 0
+  - name: Level 3
+    diffUIText: {fileID: 725297733343329218}
+    UIText: {fileID: 725297734932229707}
+    time: 0
+  highScoreText: {fileID: 725297733248988112}
+  betterThanTimeColor: {r: 0.227451, g: 0.8000001, b: 0.37647063, a: 1}
+  worseThanTimeColor: {r: 1, g: 0, b: 0.018271446, a: 1}
+  onStartSpeedRun:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onEndSpeedRun:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &725297734108697793
 GameObject:
   m_ObjectHideFlags: 0
