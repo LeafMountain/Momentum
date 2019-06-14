@@ -159,7 +159,7 @@ public class MovementComponent : MonoBehaviour
         // Read input
         Move(_inputProfile.GetInputVector());
         Rotate(_inputProfile.GetLookVector().x * Time.timeScale);
-        if (_inputProfile.GetJumpButton()) StartCoroutine(Jump());
+        if (_inputProfile.GetJumpButtonDown()) StartCoroutine(Jump());
 
 
         // Debug.Log(IsGrounded());
