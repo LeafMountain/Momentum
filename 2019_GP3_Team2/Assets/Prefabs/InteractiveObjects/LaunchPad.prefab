@@ -291,6 +291,7 @@ MonoBehaviour:
   _source: {fileID: 4169766738320200771}
   volumeMinMax: {x: 0.4, y: 0.4}
   pitchMinMax: {x: 1, y: 1}
+  output: {fileID: -4527780515820524936, guid: 9ca19b329ca665f4eb1e1203f02db2f1, type: 2}
 --- !u!65 &116862002
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -664,11 +665,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 836938899021117724}
     m_Modifications:
-    - target: {fileID: 2627206138004014039, guid: 10ef0af12578d514589b953f0b40f74a,
-        type: 3}
-      propertyPath: m_Name
-      value: SM_JumpPad_01
-      objectReference: {fileID: 0}
     - target: {fileID: 1310248187925262788, guid: 10ef0af12578d514589b953f0b40f74a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -723,6 +719,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627206138004014039, guid: 10ef0af12578d514589b953f0b40f74a,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_JumpPad_01
       objectReference: {fileID: 0}
     - target: {fileID: 2081103145490325469, guid: 10ef0af12578d514589b953f0b40f74a,
         type: 3}
