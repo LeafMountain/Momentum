@@ -73,16 +73,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 121217810466370731, guid: fc0c5edba54fdcb4dadb5f8099a3dd67,
         type: 3}
-    - target: {fileID: 8474306209839710879, guid: a696daff7b6ef154f866da1757f37d0c,
-        type: 3}
-      propertyPath: OnDisableEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8474306209839710879, guid: a696daff7b6ef154f866da1757f37d0c,
-        type: 3}
-      propertyPath: OnEnableEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 8300000, guid: 13d7ada8ad9ab2c43a4d53364616b693, type: 3}
     - target: {fileID: 949904989, guid: a696daff7b6ef154f866da1757f37d0c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -147,5 +137,15 @@ PrefabInstance:
       propertyPath: InitialModule.startColor.minColor.b
       value: 0.5707547
       objectReference: {fileID: 0}
+    - target: {fileID: 8474306209839710879, guid: a696daff7b6ef154f866da1757f37d0c,
+        type: 3}
+      propertyPath: OnDisableEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8474306209839710879, guid: a696daff7b6ef154f866da1757f37d0c,
+        type: 3}
+      propertyPath: OnEnableEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 8300000, guid: 72c8ece7ff04b1e49b828329d2f8eb8b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a696daff7b6ef154f866da1757f37d0c, type: 3}

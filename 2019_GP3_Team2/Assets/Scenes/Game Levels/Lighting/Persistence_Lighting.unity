@@ -484,7 +484,7 @@ MonoBehaviour:
   overrideColor: 1
   overridingColor: {r: 0.999999, g: 0.76481146, b: 0.5846006, a: 1}
   useShadow: 1
-  shadowMapRenderTexture: {fileID: 1054846472}
+  shadowMapRenderTexture: {fileID: 973815865}
   useCookie: 1
   cookieMapRenderTexture: {fileID: 0}
   enableOutOfPhaseColor: 1
@@ -498,7 +498,7 @@ MonoBehaviour:
   customCookieDistanceFalloffPower: 2
   customAngularFalloffThreshold: 0.8
   customAngularFalloffPower: 2
---- !u!84 &1054846472
+--- !u!84 &973815865
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -696,15 +696,15 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -665691967660453618, guid: 9ca19b329ca665f4eb1e1203f02db2f1,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: ea04ed3eb684b374fa314e7074155cc0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 51c33658f4b3e1246b8d6dad403a0089, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.026
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 48
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
