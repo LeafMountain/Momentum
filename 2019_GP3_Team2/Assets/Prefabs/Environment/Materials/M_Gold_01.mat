@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_RaisedArm_Statue_001
-  m_Shader: {fileID: 4800000, guid: 677115c3562340f4c9137243f60cee0e, type: 3}
-  m_ShaderKeywords: _DISABELSCALETILING_ON
-  m_LightmapFlags: 0
+  m_Name: M_Gold_01
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,14 +19,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BC:
-        m_Texture: {fileID: 2800000, guid: 83c0c9c3d44391b4fa3d24a6d1f12d29, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BaseColor:
-        m_Texture: {fileID: 2800000, guid: 41089de245eb5b14e8e2710c18867e0c, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -47,32 +39,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Emissive:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _GMAO:
-        m_Texture: {fileID: 2800000, guid: 51a8c989aff25204ab5649ff8e30f6f0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _GMAOH:
-        m_Texture: {fileID: 2800000, guid: 47d29e5752a3c80429c27c7d98f51a9f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _N:
-        m_Texture: {fileID: 2800000, guid: afb89ef4a9a1bf248a04076ae4bcc883, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Normalmap:
-        m_Texture: {fileID: 2800000, guid: afb89ef4a9a1bf248a04076ae4bcc883, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -83,43 +55,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _texcoord:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AOIntensity: 0
-    - _BCIntensity: 5
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DisabelScaleTiling: 1
     - _DstBlend: 0
-    - _EStrenght: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metal: 1
     - _Metallic: 0
-    - _Metallness: 0
-    - _MetalnessTexture_Switch: 0
     - _Mode: 0
-    - _NIntensity: 1
-    - _ObjectMaxRadius: 5000
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SmoothMax: 0.8
-    - _SmoothMin: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TileSize: 1
     - _UVSec: 0
-    - _UseEmissive: 0
-    - _UseMetalMap: 0
     - _ZWrite: 1
-    - __dirty: 0
     m_Colors:
-    - _BCTint: {r: 1, g: 0.69765735, b: 0.36320752, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
