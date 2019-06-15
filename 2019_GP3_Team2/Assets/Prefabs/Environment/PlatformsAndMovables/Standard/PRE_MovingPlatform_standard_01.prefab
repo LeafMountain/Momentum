@@ -18,9 +18,9 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a3b2bbc36923ddd4592e17161ba57f5a, type: 2}
-  - {fileID: 2100000, guid: d80cb7f9a386a7f4ea8dc4b9e2b57c25, type: 2}
-  - {fileID: 2100000, guid: 22609b5e0208573409f61332df958d6d, type: 2}
-  - {fileID: 2100000, guid: f8a1627dcd48afe49886d68fc5261d49, type: 2}
+  - {fileID: 2100000, guid: c0a8099d418cece429b28103d577f8aa, type: 2}
+  - {fileID: 2100000, guid: c0a8099d418cece429b28103d577f8aa, type: 2}
+  - {fileID: 2100000, guid: c0a8099d418cece429b28103d577f8aa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,6 +78,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PRE_MovingPlatform_standard_01
       objectReference: {fileID: 0}
+    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6173308030119901427, guid: 99ffd87c6f7430944b1958e1a209ca93,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -132,21 +147,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5401736407270695017, guid: 99ffd87c6f7430944b1958e1a209ca93,
         type: 3}
