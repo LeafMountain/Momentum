@@ -71,7 +71,7 @@ public class ShootComponent : MonoBehaviour
     {
         _onCooldown = true;
 
-        Vector3 shootDir = shootOrigin.forward * 20f;
+        Vector3 shootDir = vfxOrigin.forward;
 
         RaycastHit hit;
         if (Physics.Raycast(shootOrigin.position, shootOrigin.forward, out hit))
