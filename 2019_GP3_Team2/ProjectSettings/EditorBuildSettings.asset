@@ -14,12 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Levels/HUB Level/HUB Level.unity
     guid: ba6601cbaa82e294397593e5808a6a1e
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Menu/PauseMenu.unity
     guid: 693841a160081af42a2463dccc42ef9c
@@ -50,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Levels/Level 2/Level_02_Persistence.unity
     guid: d3b0c1c5f5e84564b9b0ac541db4cd85
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Speedrun/Speedrun.unity
+    guid: 0e774650f7171b9489544edda9ed1aa2
   m_configObjects: {}
