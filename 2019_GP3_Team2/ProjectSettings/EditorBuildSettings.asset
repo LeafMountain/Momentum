@@ -14,16 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Levels/HUB Level/HUB Level.unity
     guid: ba6601cbaa82e294397593e5808a6a1e
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Menu/PauseMenu.unity
     guid: 693841a160081af42a2463dccc42ef9c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Levels/Tutorial/Tutorial-Rework.unity
     guid: af1e9adeb4b80d34e8c7a8e835c4fe00
   - enabled: 1
@@ -44,10 +38,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Levels/Level 2/JumpPlatform 2.unity
     guid: 7d76512c01a271741b47b9dea7c699d9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Levels/Level 2/JumpPlatform 3.unity
     guid: 9c4178324a3ccb8448e51cee7ed44c40
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Levels/Level 2/Level_02_Persistence.unity
     guid: d3b0c1c5f5e84564b9b0ac541db4cd85
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Tutorial/Tutorial-Rework_Tony.unity
+    guid: a15ec6674d7d3c743b3f8f16f4b79fba
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 2/JumpPlatform 3 - copy.unity
+    guid: 77ba1a2db44fc934696b254a15c18294
   m_configObjects: {}
