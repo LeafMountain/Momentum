@@ -25,4 +25,10 @@ public class RigibodyHasGravity : MonoBehaviour
         myRigidbody.useGravity = true;
         myRigidbody.isKinematic = false;
     }
+
+    public void MakeObjectKinematic ()
+    {
+        myRigidbody.useGravity = false;
+        myRigidbody.isKinematic = true;
+    }
 }
