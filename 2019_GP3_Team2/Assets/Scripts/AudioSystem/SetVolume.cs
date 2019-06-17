@@ -25,15 +25,21 @@ public class SetVolume : MonoBehaviour
 
     public void SetTheVolume(float value)
     {
+        SetTheVolume(propertyName, value);
+    }
+
+    public void SetTheVolume(string propertyName, float value)
+    {
         _audioMixer.SetFloat(propertyName, Mathf.Log10(value) * 20);
         _percentText.text = Mathf.RoundToInt(value * 100) + "%";
     }
-    // public void SetVolumeMaster(float sliderValue) => _audioMixer.SetFloat("MasterVolume", Mathf.Log10(sliderValue) * 20); 
 
-    // public void SetVolumeSFX(float sliderValue) => _audioMixer.SetFloat("SFXVolume", Mathf.Log10(sliderValue) * 20); 
+    public void SetVolumeMaster(float sliderValue) => SetTheVolume("MasterVolume", sliderValue); 
 
-    // public void SetVolumeAmbient(float sliderValue) => _audioMixer.SetFloat("AmbientVolume", Mathf.Log10(sliderValue) * 20);
+    public void SetVolumeSFX(float sliderValue) => SetTheVolume("SFXVolume", sliderValue); 
 
-    // public void UpdatePercentage(float value) => _percentText.text = Mathf.RoundToInt(value * 100) + "%";
+    public void SetVolumeAmbient(float sliderValue) => SetTheVolume("AmbientVolume", sliderValue);
+
+    public void UpdatePercentage(float value) => _percentText.text = Mathf.RoundToInt(value * 100) + "%";
 
 }
