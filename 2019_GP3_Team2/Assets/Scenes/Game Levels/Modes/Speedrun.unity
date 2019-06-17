@@ -213,6 +213,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8633849509261674714, guid: abb8308acf501b04ca16b51a38f3e146,
+        type: 3}
+      propertyPath: maxHorizontalSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633849509261674714, guid: abb8308acf501b04ca16b51a38f3e146,
+        type: 3}
+      propertyPath: resistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633849509261674714, guid: abb8308acf501b04ca16b51a38f3e146,
+        type: 3}
+      propertyPath: airtimeAllowedBeforeJump
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abb8308acf501b04ca16b51a38f3e146, type: 3}
 --- !u!1 &86255501 stripped
