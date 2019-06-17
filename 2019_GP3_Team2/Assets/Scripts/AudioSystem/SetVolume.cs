@@ -24,14 +24,11 @@ public class SetVolume : MonoBehaviour
         _percentText.text = Mathf.RoundToInt(volumePercentage * 100) + "%";
     }
 
-    public void SetTheVolume(float value)
-    {
-        SetTheVolume(propertyName, value);
-    }
+    public void SetTheVolume(float value) => SetTheVolume(propertyName, value);
+    
 
     public void SetTheVolume(string propertyName, float value)
     {
-        Debug.Log(value);
         _percentText.text = Mathf.RoundToInt(value * 100) + "%";
 
         value = Mathf.Lerp(-80, 20, value);
