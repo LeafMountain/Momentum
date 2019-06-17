@@ -387,7 +387,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219029156152224785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.7, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1671784770}
@@ -786,7 +786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 0
-  durationTimer: 2
+  durationTimer: 1
   OnTrigger:
     m_PersistentCalls:
       m_Calls:
@@ -900,10 +900,11 @@ MonoBehaviour:
   _rotationSpeed: {fileID: 11400000, guid: 43c8bec9fda8a1d41a266b4593c56372, type: 2}
   gravity: -15
   _slopeLimit: 45
+  airtimeAllowedBeforeJump: 0.1
   _inputProfile: {fileID: 11400000, guid: b2b7b2fafadd8cc459923e56cbebca91, type: 2}
   groundedCheckDistance: 0.1
-  resistance: 1
-  maxHorizontalSpeed: 10
+  resistance: 0.8
+  maxHorizontalSpeed: 15
   disableMovement: 0
   OnJump:
     m_PersistentCalls:
