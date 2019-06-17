@@ -14,5 +14,5 @@ public class AnimationBool : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void SetBool(bool value) => animator.SetBool(propertyName, value);
+    public void SetBool(bool value) => animator?.SetBool(propertyName, value);
 }
