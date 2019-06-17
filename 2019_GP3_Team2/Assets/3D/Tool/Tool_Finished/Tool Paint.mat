@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Tool Paint
   m_Shader: {fileID: 4800000, guid: 677115c3562340f4c9137243f60cee0e, type: 3}
-  m_ShaderKeywords: _USEEMISSIVE_ON _USEMETALMAP_ON
+  m_ShaderKeywords: _DISABELSCALETILING_ON _USEEMISSIVE_ON _USEMETALMAP_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -88,12 +88,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AOIntensity: 0
+    - _AOIntensity: 1
     - _BCIntensity: 1
     - _BumpScale: 1
     - _ChromaticAberration: 0.1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _DisabelScaleTiling: 1
     - _DstBlend: 0
     - _EStrenght: 1
     - _FresnelPower: 1.5
@@ -103,7 +104,7 @@ Material:
     - _Metal: 0
     - _Metallic: 0
     - _Mode: 0
-    - _NIntensity: 0
+    - _NIntensity: 1
     - _NormalScale: 5
     - _ObjectMaxRadius: 5000
     - _OcclusionStrength: 1
@@ -114,8 +115,8 @@ Material:
     - _ReflectionSide: 1
     - _RefractionFront: 1
     - _RefractionSide: 0.5
-    - _SmoothMax: 0.8
-    - _SmoothMin: 0.2
+    - _SmoothMax: 0.7
+    - _SmoothMin: 0.3
     - _Smoothness: 0
     - _SmoothnessIntensity: 7.04
     - _SmoothnessScale: 3
