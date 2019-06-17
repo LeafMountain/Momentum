@@ -774,7 +774,7 @@ MonoBehaviour:
   _inputProfile: {fileID: 11400000, guid: b2b7b2fafadd8cc459923e56cbebca91, type: 2}
   groundedCheckDistance: 0.1
   resistance: 0.8
-  maxHorizontalSpeed: 15
+  maxHorizontalSpeed: 5.5
   disableMovement: 0
   OnJump:
     m_PersistentCalls:
@@ -1603,6 +1603,11 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5941436117384650011, guid: bf201613224f63c4d97980290a635677,
+        type: 3}
+      propertyPath: duration
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf201613224f63c4d97980290a635677, type: 3}
 --- !u!224 &5947464056222800662 stripped
@@ -1682,11 +1687,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226259356984612246, guid: 0efbe29cfcd946f449a460dddec0e471,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5482741152597666048, guid: 0efbe29cfcd946f449a460dddec0e471,
         type: 3}
@@ -1828,6 +1828,11 @@ PrefabInstance:
       value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 7102200193311084486, guid: 0efbe29cfcd946f449a460dddec0e471,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226259356984612246, guid: 0efbe29cfcd946f449a460dddec0e471,
         type: 3}
       propertyPath: m_Layer
       value: 10

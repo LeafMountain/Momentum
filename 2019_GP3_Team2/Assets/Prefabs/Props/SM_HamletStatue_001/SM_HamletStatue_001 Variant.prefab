@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!64 &4780429724834974939
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256204465263897291}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 1343115261980695395, guid: dfa93cf7db85c0b4e8238c0056e11889, type: 3}
 --- !u!1001 &8119943454267749314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +24,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: dfa93cf7db85c0b4e8238c0056e11889,
         type: 3}
       propertyPath: m_Name
-      value: SM_HamletStatue_001
+      value: SM_HamletStatue_001 Variant
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: dfa93cf7db85c0b4e8238c0056e11889,
         type: 3}
@@ -74,3 +88,9 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 989a9be6846dd184ca2010d61b029390, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfa93cf7db85c0b4e8238c0056e11889, type: 3}
+--- !u!1 &256204465263897291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: dfa93cf7db85c0b4e8238c0056e11889,
+    type: 3}
+  m_PrefabInstance: {fileID: 8119943454267749314}
+  m_PrefabAsset: {fileID: 0}

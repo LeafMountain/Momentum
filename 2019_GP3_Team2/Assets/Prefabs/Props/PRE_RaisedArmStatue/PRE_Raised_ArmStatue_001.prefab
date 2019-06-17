@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 5878381785075561807}
   - component: {fileID: 3228856261999136633}
   - component: {fileID: 9219918208629928832}
+  - component: {fileID: 1894420398207027486}
   m_Layer: 0
-  m_Name: SM_Raised_ArmStatue_001
+  m_Name: PRE_Raised_ArmStatue_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1894420398207027486
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7480317139280775004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -12540158704810086, guid: c5a698eb715afe84d85648f99f807d1a, type: 3}
