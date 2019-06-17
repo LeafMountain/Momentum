@@ -2876,6 +2876,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: MasterSlider
       objectReference: {fileID: 0}
+    - target: {fileID: 7767747285857070568, guid: 8619c665783197f4ab527dde0861ce50,
+        type: 3}
+      propertyPath: _percentText
+      value: 
+      objectReference: {fileID: 1344115387}
+    - target: {fileID: 7767747285857070568, guid: 8619c665783197f4ab527dde0861ce50,
+        type: 3}
+      propertyPath: propertyName
+      value: MasterVolume
+      objectReference: {fileID: 0}
     - target: {fileID: 5210069365193292913, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2996,11 +3006,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.3999999
       objectReference: {fileID: 0}
-    - target: {fileID: 7767747285857070568, guid: 8619c665783197f4ab527dde0861ce50,
-        type: 3}
-      propertyPath: _percentText
-      value: 
-      objectReference: {fileID: 1344115387}
     - target: {fileID: 3922532823508336849, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -3034,12 +3039,12 @@ PrefabInstance:
     - target: {fileID: 5210069365193292911, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5210069365193292911, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetVolumeMaster
+      value: SetTheVolume
       objectReference: {fileID: 0}
     - target: {fileID: 5210069365193292911, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
@@ -5578,6 +5583,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundSlider
       objectReference: {fileID: 0}
+    - target: {fileID: 7767747285857070568, guid: 8619c665783197f4ab527dde0861ce50,
+        type: 3}
+      propertyPath: _percentText
+      value: 
+      objectReference: {fileID: 13960131}
+    - target: {fileID: 7767747285857070568, guid: 8619c665783197f4ab527dde0861ce50,
+        type: 3}
+      propertyPath: propertyName
+      value: AmbientVolume
+      objectReference: {fileID: 0}
     - target: {fileID: 5210069365193292913, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5698,11 +5713,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.3999999
       objectReference: {fileID: 0}
-    - target: {fileID: 7767747285857070568, guid: 8619c665783197f4ab527dde0861ce50,
-        type: 3}
-      propertyPath: _percentText
-      value: 
-      objectReference: {fileID: 13960131}
     - target: {fileID: 3922532823508336849, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -5736,12 +5746,12 @@ PrefabInstance:
     - target: {fileID: 5210069365193292911, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5210069365193292911, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetVolumeAmbient
+      value: SetTheVolume
       objectReference: {fileID: 0}
     - target: {fileID: 5210069365193292911, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
@@ -11478,6 +11488,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SFXSlider
       objectReference: {fileID: 0}
+    - target: {fileID: 7767747285857070568, guid: 8619c665783197f4ab527dde0861ce50,
+        type: 3}
+      propertyPath: _percentText
+      value: 
+      objectReference: {fileID: 1662044518}
+    - target: {fileID: 7767747285857070568, guid: 8619c665783197f4ab527dde0861ce50,
+        type: 3}
+      propertyPath: propertyName
+      value: SFXVolume
+      objectReference: {fileID: 0}
     - target: {fileID: 5210069365193292913, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11598,11 +11618,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.3999999
       objectReference: {fileID: 0}
-    - target: {fileID: 7767747285857070568, guid: 8619c665783197f4ab527dde0861ce50,
-        type: 3}
-      propertyPath: _percentText
-      value: 
-      objectReference: {fileID: 1662044518}
     - target: {fileID: 3922532823508336849, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -11636,12 +11651,12 @@ PrefabInstance:
     - target: {fileID: 5210069365193292911, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5210069365193292911, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetVolumeSFX
+      value: SetTheVolume
       objectReference: {fileID: 0}
     - target: {fileID: 5210069365193292911, guid: 8619c665783197f4ab527dde0861ce50,
         type: 3}
