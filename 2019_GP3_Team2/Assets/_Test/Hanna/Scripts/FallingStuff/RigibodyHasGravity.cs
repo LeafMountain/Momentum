@@ -14,10 +14,10 @@ public class RigibodyHasGravity : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            GiveObjectGravity();
-        }
+//         if (Input.GetKeyDown(KeyCode.G))
+//         {
+//             GiveObjectGravity();
+//         }
     }
 
     public void GiveObjectGravity ()
