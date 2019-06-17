@@ -15,11 +15,11 @@ public class ProjectileScript : MonoBehaviour
     Transform _target;
     Collider instagator;
 
-    void FixedUpdate()
+    void Update()
     {
         // Check if collided
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, _direction * speed, out hit, speed * Time.fixedDeltaTime) && hit.collider != instagator)
+        if (Physics.Raycast(transform.position, _direction * speed, out hit, speed * Time.deltaTime) && hit.collider != instagator)
         {
             OnHit?.Invoke(hit.transform.gameObject);
             Destroy(gameObject);
@@ -38,15 +38,14 @@ public class ProjectileScript : MonoBehaviour
             moveDirection = Vector3.ClampMagnitude(moveDirection, distance);
             transform.Translate(moveDirection);
 
-            if (distance < .2f)
-                Destroy(gameObject);
+            // if (distance < .2f)
+            //     Destroy(gameObject);
         }
         else
         {
             moveDirection *= Time.fixedDeltaTime;
             transform.Translate(moveDirection);
         }
-
     }
 
     void OnDisable()
