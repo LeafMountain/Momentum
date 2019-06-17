@@ -121,6 +121,10 @@ public class SpeedRunManager : MonoBehaviour
             timeStamps[lastTimeStampIndex].time = timeElapsed;
 
         }
+        if (lastTimeStampIndex >= timeStamps.Length - 1)
+        {
+            EndSpeedRun();
+        }
     }
 
     public void SaveTimes()
