@@ -12,15 +12,16 @@ public class SetVolume : MonoBehaviour
 
     private Slider _slider;
 
-    void Start()
+    void OnEnable()
     {
         _slider = GetComponent<Slider>();
 
         float defaultVolume;
         _audioMixer.GetFloat(propertyName, out defaultVolume);
-        _slider.value = defaultVolume;
+        float volumePercentage = Mathf.InverseLerp(-80, 20, defaultVolume);
+        _slider.value = volumePercentage;
 
-        _percentText.text = Mathf.RoundToInt(_slider.value * 10) + "%";
+        _percentText.text = Mathf.RoundToInt(volumePercentage * 100) + "%";
     }
 
     public void SetTheVolume(float value)
@@ -30,8 +31,11 @@ public class SetVolume : MonoBehaviour
 
     public void SetTheVolume(string propertyName, float value)
     {
-        _audioMixer.SetFloat(propertyName, Mathf.Log10(value) * 20);
+        Debug.Log(value);
         _percentText.text = Mathf.RoundToInt(value * 100) + "%";
+
+        value = Mathf.Lerp(-80, 20, value);
+        _audioMixer.SetFloat(propertyName, value);
     }
 
     public void SetVolumeMaster(float sliderValue) => SetTheVolume("MasterVolume", sliderValue); 
