@@ -62,7 +62,7 @@ MonoBehaviour:
   colorZero: {fileID: 11400000, guid: 2e9db2e4f11eb3a48a621341736ae7cc, type: 2}
   colorOne: {fileID: 11400000, guid: 59b00017205f107478bafdfc0615ab44, type: 2}
   color: {r: 0, g: 0, b: 0, a: 0}
-  materialIndex: 2
+  materialIndex: 0
   colorPropertyName: _EmissionColor
   duration: 0.1
 --- !u!1001 &6002050219265211718
