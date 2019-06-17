@@ -1603,6 +1603,11 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5941436117384650011, guid: bf201613224f63c4d97980290a635677,
+        type: 3}
+      propertyPath: duration
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf201613224f63c4d97980290a635677, type: 3}
 --- !u!224 &5947464056222800662 stripped
