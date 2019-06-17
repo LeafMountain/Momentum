@@ -237,6 +237,51 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6860842799825910686, guid: 53d324813cadbe34e9f282b6e27c67dc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetTheVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986910338701404697, guid: 53d324813cadbe34e9f282b6e27c67dc,
+        type: 3}
+      propertyPath: propertyName
+      value: SFXVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758111843172005391, guid: 53d324813cadbe34e9f282b6e27c67dc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758111843172005391, guid: 53d324813cadbe34e9f282b6e27c67dc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetTheVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200301762086102920, guid: 53d324813cadbe34e9f282b6e27c67dc,
+        type: 3}
+      propertyPath: propertyName
+      value: AmbientVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 7923452185534693084, guid: 53d324813cadbe34e9f282b6e27c67dc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7923452185534693084, guid: 53d324813cadbe34e9f282b6e27c67dc,
+        type: 3}
+      propertyPath: m_MinValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7923452185534693084, guid: 53d324813cadbe34e9f282b6e27c67dc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetTheVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653344315802922843, guid: 53d324813cadbe34e9f282b6e27c67dc,
+        type: 3}
+      propertyPath: propertyName
+      value: Master
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d324813cadbe34e9f282b6e27c67dc, type: 3}
 --- !u!1 &135682996 stripped
