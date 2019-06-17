@@ -2098,6 +2098,16 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 725297734237573441, guid: 0f480c3eebd5ed84d9ffd236a4816a45,
+        type: 3}
+      propertyPath: m_text
+      value: TutoriAl
+      objectReference: {fileID: 0}
+    - target: {fileID: 725297734237573441, guid: 0f480c3eebd5ed84d9ffd236a4816a45,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f480c3eebd5ed84d9ffd236a4816a45, type: 3}
 --- !u!1 &1931708079 stripped
