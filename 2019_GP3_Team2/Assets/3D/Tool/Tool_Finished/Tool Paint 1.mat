@@ -103,7 +103,7 @@ Material:
     - _Metal: 0
     - _Metallic: 0
     - _Mode: 0
-    - _NIntensity: 0
+    - _NIntensity: 1
     - _NormalScale: 5
     - _ObjectMaxRadius: 5000
     - _OcclusionStrength: 1
@@ -114,8 +114,8 @@ Material:
     - _ReflectionSide: 1
     - _RefractionFront: 1
     - _RefractionSide: 0.5
-    - _SmoothMax: 0.8
-    - _SmoothMin: 0.2
+    - _SmoothMax: 0.7
+    - _SmoothMin: 0.3
     - _Smoothness: 0
     - _SmoothnessIntensity: 7.04
     - _SmoothnessScale: 3
