@@ -18,10 +18,10 @@ public class DoorGoUp : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            DoorGoesUp();
-        }
+//         if (Input.GetKeyDown(KeyCode.P))
+//         {
+//             DoorGoesUp();
+//         }
     }
 
 }

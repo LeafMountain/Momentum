@@ -23,6 +23,11 @@ public class RotationComponent : MonoBehaviour
 
     void Start()
     {
+        if(snapFrequency < 1)
+        {
+            snapFrequency = 1;
+        }
+        
         _snapPositions = new Vector3[snapFrequency];
         _checkVec = Vector3.Cross(transform.up, axis.normalized);
 

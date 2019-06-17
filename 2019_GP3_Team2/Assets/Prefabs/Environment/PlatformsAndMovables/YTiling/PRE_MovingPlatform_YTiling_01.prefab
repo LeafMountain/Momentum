@@ -17,9 +17,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d80cb7f9a386a7f4ea8dc4b9e2b57c25, type: 2}
-  - {fileID: 2100000, guid: 21aa6b6b9b17df94da8d131addf2aac7, type: 2}
   - {fileID: 2100000, guid: a3b2bbc36923ddd4592e17161ba57f5a, type: 2}
+  - {fileID: 2100000, guid: 408fd4d4d89207546a08ba51330ab3b9, type: 2}
+  - {fileID: 2100000, guid: 408fd4d4d89207546a08ba51330ab3b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -46,7 +46,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7928067643556820048}
-  m_Mesh: {fileID: -431299763445664953, guid: 2ce47855df3d83e41b7ce42d60115ba8, type: 3}
+  m_Mesh: {fileID: -5782823321283612686, guid: 7accb143ea5ae9a46bc0c44fb64d302c, type: 3}
 --- !u!114 &-8748210777903270431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,6 +76,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PRE_MovingPlatform_YTiling_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.505
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 3.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.2525
       objectReference: {fileID: 0}
     - target: {fileID: 6173308030119901427, guid: 99ffd87c6f7430944b1958e1a209ca93,
         type: 3}
@@ -131,26 +151,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.505
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 3.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141211581961795644, guid: 99ffd87c6f7430944b1958e1a209ca93,
-        type: 3}
-      propertyPath: m_Center.y
-      value: -0.2525
       objectReference: {fileID: 0}
     - target: {fileID: 5401736407270695017, guid: 99ffd87c6f7430944b1958e1a209ca93,
         type: 3}

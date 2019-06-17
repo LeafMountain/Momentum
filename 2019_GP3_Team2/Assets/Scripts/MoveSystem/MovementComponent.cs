@@ -16,6 +16,7 @@ public class MovementComponent : MonoBehaviour
     [ReadOnly] public float gravity = -12f;
     [Tooltip("In degrees"), SerializeField] private float _slopeLimit = 45;
     #endregion
+    public float airtimeAllowedBeforeJump = 1f;
 
     [Header("Input")]
     [Tooltip("Data that determines the input of player actions")]
@@ -43,6 +44,8 @@ public class MovementComponent : MonoBehaviour
     // ye
     [Header("Events")]
     [SerializeField] UnityEvent OnJump;
+
+    bool jumpingAllowed;
 
     [System.Serializable]
     public struct LandedVelocity
@@ -90,12 +93,12 @@ public class MovementComponent : MonoBehaviour
                 }
                 // else
                 //     ggravity *= 5;
-                Debug.DrawLine(transform.position, transform.position + velocityRay.direction * velocityHit.distance, Color.green);
+                // Debug.DrawLine(transform.position, transform.position + velocityRay.direction * velocityHit.distance, Color.green);
             }
 
 
         }
-        Debug.DrawLine(transform.position, transform.position + velocity, Color.magenta);
+        // Debug.DrawLine(transform.position, transform.position + velocity, Color.magenta);
 
         velocity += myGravity;
 
@@ -163,11 +166,42 @@ public class MovementComponent : MonoBehaviour
 
 
         // Debug.Log(IsGrounded());
+        // if (!IsGrounded() && groundedLastFrame)
+        // {
+        //     StartCoroutine(JumpAirTime());
+        // }
+
+        // if (IsGrounded())
+        //     jumpingAllowed = true;
+
+        if (IsGrounded())
+        {
+            timeSinceGrounded = 0;
+            jumping = false;
+        }
+        else
+        {
+            timeSinceGrounded += Time.deltaTime;
+        }
+
+    }
+    // bool groundedLastFrame;
+
+    float timeSinceGrounded;
+
+    IEnumerator JumpAirTime()
+    {
+        yield return new WaitForSeconds(1f);
+        jumpingAllowed = false;
     }
 
     void LateUpdate()
     {
         FollowGround();
+
+        if (_inputProfile.GetJumpButtonDown())
+            timeSinceGrounded = Mathf.Infinity;
+
     }
 
     private void FollowGround()
@@ -244,18 +278,16 @@ public class MovementComponent : MonoBehaviour
     bool jumping = false;
     private IEnumerator Jump()
     {
-
-        if (IsGrounded() && !jumping)
+        if (timeSinceGrounded < airtimeAllowedBeforeJump && !jumping)
         {
             jumping = true;
-
             float jumpVelocity = Mathf.Sqrt(-2 * gravity * _jumpHeight);
             velocity.y = 0;
             AddForce(Vector3.up * jumpVelocity + Vector3.up * Mathf.Clamp(_fixedGroundDelta.y, 0, Mathf.Infinity));
             OnJump.Invoke();
             yield return new WaitForSeconds(.2f);
 
-            jumping = false;
+            // jumping = false;
         }
     }
 
@@ -271,7 +303,7 @@ public class MovementComponent : MonoBehaviour
 
     public bool IsGrounded()
     {
-        if (jumping) return false;
+        // if (jumping) return false;
 
         bool grounded = false;
         Vector3 rayOrigin = transform.position + _controller.center + Vector3.down * ((_controller.height / 2) - _controller.radius);

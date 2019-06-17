@@ -38,8 +38,8 @@ public class ProjectileScript : MonoBehaviour
             moveDirection = Vector3.ClampMagnitude(moveDirection, distance);
             transform.Translate(moveDirection);
 
-            // if (distance < .2f)
-            //     Destroy(gameObject);
+            if (distance < .2f)
+                Destroy(gameObject);
         }
         else
         {
