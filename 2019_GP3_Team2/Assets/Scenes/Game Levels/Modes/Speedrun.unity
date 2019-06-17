@@ -307,7 +307,7 @@ PrefabInstance:
     - target: {fileID: 3424855806279789201, guid: bce5d6d112b1d344eb7a0be60f2f39c9,
         type: 3}
       propertyPath: OnStart.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_StringArgument
-      value: JumpPlatform 3 - copy
+      value: JumpPlatform 3
       objectReference: {fileID: 0}
     - target: {fileID: 3424855806279789201, guid: bce5d6d112b1d344eb7a0be60f2f39c9,
         type: 3}
