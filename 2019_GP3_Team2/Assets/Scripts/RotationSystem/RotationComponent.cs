@@ -85,7 +85,7 @@ public class RotationComponent : MonoBehaviour
                 }
             }
 
-            DebugHelper.DrawArrow(transform.position, _snapPositions[_closestIndex], Color.red, 2, .1f);
+            // DebugHelper.DrawArrow(transform.position, _snapPositions[_closestIndex], Color.red, 2, .1f);
 
             if (_closestIndex == eventIndex % snapFrequency)
             {
