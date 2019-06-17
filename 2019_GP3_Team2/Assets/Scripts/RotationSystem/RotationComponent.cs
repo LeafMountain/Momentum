@@ -23,6 +23,11 @@ public class RotationComponent : MonoBehaviour
 
     void Start()
     {
+        if(snapFrequency < 1)
+        {
+            snapFrequency = 1;
+        }
+        
         _snapPositions = new Vector3[snapFrequency];
         _checkVec = Vector3.Cross(transform.up, axis.normalized);
 
@@ -85,7 +90,7 @@ public class RotationComponent : MonoBehaviour
                 }
             }
 
-            DebugHelper.DrawArrow(transform.position, _snapPositions[_closestIndex], Color.red, 2, .1f);
+            // DebugHelper.DrawArrow(transform.position, _snapPositions[_closestIndex], Color.red, 2, .1f);
 
             if (_closestIndex == eventIndex % snapFrequency)
             {
