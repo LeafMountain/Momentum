@@ -9,7 +9,7 @@ OcclusionCullingSettings:
     smallestHole: 0.25
     backfaceThreshold: 100
   m_SceneGUID: 21b8edfb70e508e469bdebecff54ea06
-  m_OcclusionCullingData: {fileID: 36300000, guid: 7510677910ccb5a4ab61cd6a0a72c4f5,
+  m_OcclusionCullingData: {fileID: 36300000, guid: aea046bdb64016b47b0ec3c18598c387,
     type: 2}
 --- !u!104 &2
 RenderSettings:
@@ -454,7 +454,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 058dbd2599a880546abfaf559480232e,
+          m_ObjectArgument: {fileID: 8300000, guid: 7f587036006aafa4f8ffcdaebc6739fc,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -658,7 +658,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -665691967660453618, guid: 9ca19b329ca665f4eb1e1203f02db2f1,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 058dbd2599a880546abfaf559480232e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7f587036006aafa4f8ffcdaebc6739fc, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -854,7 +854,7 @@ MonoBehaviour:
   overrideColor: 1
   overridingColor: {r: 0.999999, g: 0.76481146, b: 0.5846006, a: 1}
   useShadow: 1
-  shadowMapRenderTexture: {fileID: 946002847}
+  shadowMapRenderTexture: {fileID: 1014828781}
   useCookie: 1
   cookieMapRenderTexture: {fileID: 0}
   enableOutOfPhaseColor: 1
@@ -896,7 +896,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -665691967660453618, guid: 9ca19b329ca665f4eb1e1203f02db2f1,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 28f3c9ddbafc32a4982ad81a0b9a607c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bcff75e4c6a7f5b4f85f8d400016f4cb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1034,7 +1034,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &946002847
+--- !u!84 &1014828781
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1122,7 +1122,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 28f3c9ddbafc32a4982ad81a0b9a607c,
+          m_ObjectArgument: {fileID: 8300000, guid: bcff75e4c6a7f5b4f85f8d400016f4cb,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -1573,7 +1573,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -665691967660453618, guid: 9ca19b329ca665f4eb1e1203f02db2f1,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 6172815398634b04d99bc643d5f08329, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6e6ebf8a0c6bc0d41b3f2740a960d948, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1741,7 +1741,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6172815398634b04d99bc643d5f08329,
+          m_ObjectArgument: {fileID: 8300000, guid: 6e6ebf8a0c6bc0d41b3f2740a960d948,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
