@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu/CreditsMenu.unity
     guid: 662ee3a2de0cc694ab78b23442279e40
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Sounds/Sounds.unity
+    guid: 5e86866b85d4a9145859eb1fd96b8c1e
   m_configObjects: {}
